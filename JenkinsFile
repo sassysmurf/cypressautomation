@@ -1,0 +1,8 @@
+pipeline{
+    afent any
+
+    parameters{
+        string(name: 'SPEC', defaultValue: "cypress/e2e/**/**", description: "Run the scripts")
+        choice(name: 'BROWSER', )
+    }
+}
